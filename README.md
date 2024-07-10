@@ -12,5 +12,11 @@ Following are some topics (pre requisites) needed to be understood inorder to be
 2) Dynamic Programming
 3) Q Learning
 4) SARSA
+5) Policy Iteration
+6) Value Iteration
+7) Actor Critic
 
-There were multiple iterations used in which the value of p, gamma and alpha were changed to see if the bot takes different paths for each different combination.
+There were multiple iterations used in which the value of p, gamma and theta were changed to see if the bot takes different paths for each different combination, such as :
+1) Gamma = 0.95, p = 0.02, theta = 0.01; Base Case Scenario
+2) Gamma = 0.95, p = 0.5, theta = 0.01; Large Stochasticity Scenario
+3) Gamma = 0.55, p = 0.02, theta = 0.01; Small Discount Factor
